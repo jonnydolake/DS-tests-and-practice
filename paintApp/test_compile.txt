@@ -1,0 +1,1 @@
+clang test.c $(pkg-config --libs --cflags raylib) -o test

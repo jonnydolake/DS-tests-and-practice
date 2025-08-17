@@ -1,0 +1,1 @@
+clang paint.c $(pkg-config --libs --cflags raylib) -Wall -Werror -Wpedantic -O3 -o paint
