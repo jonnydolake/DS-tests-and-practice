@@ -1,1 +1,1 @@
-personal repo for testing and practicing data structure architecture in C
+personal repo for testing and practicing
