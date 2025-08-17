@@ -31,6 +31,9 @@ int main(void)
 
     SetMouseCursor(MOUSE_CURSOR_CROSSHAIR);
     // Create a RenderTexture2D to use as a canvas
+    int total_frames = 6;
+    Image test = GenImageColor(gameScreenWidth, gameScreenHeight, RAYWHITE);
+
     RenderTexture2D target = LoadRenderTexture(gameScreenWidth ,gameScreenHeight);
     SetTextureFilter(target.texture, TEXTURE_FILTER_POINT);  // Texture scale filter to use
 
